@@ -61,18 +61,24 @@
 .car-item-cus{
   width: 150px;
   margin-left: 550px;
-  /* padding-left: 50px; */
-  /* height: 28rem;  */
+ 
 }
 
 .carousal-slide-cus{
   background-color: #151e3d;
   color: #ccc;
   height: 22rem;
-  /* padding: 100px; */
 }
 
 .carousal-slide-blockq{
   padding-left: 200px;
   padding-right: 200px;
+}
+
+.service-sec1{
+  margin-top: 90px;
+  height: 480px;
+  padding-top: 300px;
+  background-color: #1c1235;
+  color: white;
 }
