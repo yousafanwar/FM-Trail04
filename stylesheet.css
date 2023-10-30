@@ -75,10 +75,63 @@
   padding-right: 200px;
 }
 
+
+/* This the default css for all the associate pages */
 .service-sec1{
   margin-top: 90px;
-  height: 480px;
-  padding-top: 300px;
+  height: 500px;
+  /* padding-top: 300px; */
   background-color: #1c1235;
   color: white;
+  max-width: 100%;
+}
+
+/* Contact us Page Css */
+
+.contactUs-form{
+  /* position: flex; */
+  background-color: #21172b;
+  /* margin-left: 700px; */
+  margin-top: 50px;
+  /* padding-left: 700px; */
+  max-width: 40%;
+  /* height: 200px; */
+  /* width: 55%; */
+  
+   
+}
+
+.form-group{
+  padding-bottom: 5px;
+}
+
+.contact-us-title{
+  margin-top: 380px;
+}
+
+.contactUs-sec2{
+  margin-top: 50px;
+}
+
+.contactUs-sec2-text{
+  padding: 20px;
+  text-align: center;
+}
+
+.contactUs-sec2-img{
+  height: 200px;
+  background-color: #1c1235;
+}
+
+.contactUs-sec2-img img{
+  padding-top: 15px;
+  padding-left: 155px;
+}
+
+.contactUs-sec2-img blockquote{
+  color: silver;
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
