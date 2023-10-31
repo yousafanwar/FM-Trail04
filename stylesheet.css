@@ -161,14 +161,17 @@
 }
 
 .aboutUs-sec2 blockquote{
-  display: none;
+  /* display: none; */
   font-size: 1.5rem;
   color: #666;
 }
 
 .slide-in{
-  display: block;
-  transform: translateX();
-  transition: transform 0.5s;
+  transform: translateX(0);
+  transition: ease 2s;
 }
 
+.slide-out{
+  transform: translateX(-100%);
+  transition: transform 0.5s;
+}
