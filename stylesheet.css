@@ -135,3 +135,40 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+
+/* ABOUT US CSS */
+
+.aboutUs-sec1{
+  margin-top: 90px;
+  height: 500px;
+  padding-top: 300px;
+  background-color: #1c1235;
+  color: white;
+  max-width: 100%;
+}
+
+.aboutUs-sec2{
+  margin-top: 20px;
+  /* height: 400px; */
+  margin-left: 5px;
+  /* margin-bottom: 150px;  */
+}
+
+.aboutUs-sec2 h2{
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.aboutUs-sec2 blockquote{
+  display: none;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.slide-in{
+  display: block;
+  transform: translateX();
+  transition: transform 0.5s;
+}
+
