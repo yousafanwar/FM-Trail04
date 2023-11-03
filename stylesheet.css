@@ -321,3 +321,24 @@
 .accordion-header:not(.collapsed) button {
   color: white;
 }
+
+
+.slideOut{
+  transform: translateX(-100%);
+  transition: transform 0.5;
+}
+
+.slideIn{
+  transform: translateX(0);
+  transition: ease 2s;
+}
+
+.slideOut-right{
+  transform: translateX(100%);
+  transition: transform 0.5;
+}
+
+.slideIn-right{
+  transform: translateX(0);
+  transition: ease 2s;
+}
